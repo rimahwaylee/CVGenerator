@@ -1,0 +1,37 @@
+<div class="panel panel-success">
+    <div class="panel-heading">
+        <h4> {{pageTitle}} </h4>
+    </div>
+    <form (ngSubmit)="login(loginControl)" #loginControl = "ngForm" novalidate>
+            <div class="panel-body">
+                <div (ngClass)="{'has-error': (usernameVar.touched || usernameVar.dirty) && usernameVar.errors}">
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" class="form-control" id="username"
+                               name ="username" [(ngModel)]="user.username" #usernameVar="ngModel" required>
+                    </div>
+                </div>
+
+
+                <div (ngClass)="{'has-error': (passwordVar.touched || passwordVar.dirty) && passwordVar.errors}">
+                    <div class="form-group">
+                        <label for="pwd">Password:</label>
+                        <input type="password" class="form-control" id="pwd"
+                               name= "password" [(ngModel)]="user.password" #passwordVar="ngModel" required>
+                    </div>
+                </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox"> Remember me</label>
+                    </div>
+            </div>
+
+            <div class="panel-footer">
+                <button type="submit" class="btn btn-success" [disabled]="!loginControl.valid">Send</button>
+            </div>
+
+    </form>
+
+</div>
+
+
+
