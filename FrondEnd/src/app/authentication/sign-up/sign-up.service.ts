@@ -26,7 +26,7 @@ export  class SignUpService{
 
   private extractResponseData(response: Response){
     let body = response.json();
-    console.log(body.data);
+    console.log(body.message);
     return body.data || {};
   }
 

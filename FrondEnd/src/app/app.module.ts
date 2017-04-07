@@ -9,6 +9,7 @@ import {SignUpModule} from "./authentication/sign-up/sign-up.module";
 import {DropdownModule} from "ng2-dropdown";
 import {ModalModule} from "ng2-modal";
 import {TemplatesComponent} from "./templates/templates.component";
+import {LoginModule} from "./authentication/login/login.module";
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import {TemplatesComponent} from "./templates/templates.component";
     SignUpModule,
     DropdownModule,
     ModalModule,
+    LoginModule
   ],
   providers: [],
   bootstrap: [AppComponent]

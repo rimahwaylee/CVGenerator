@@ -107,16 +107,19 @@ console.log(this.signUpForm);
   }
 
   save() {
-    this.addUser();
     this.onShowModal();
+    this.startLoading();
+    this.addUser();
+
   }
 
   private addUser(){
       // Copy the form values over the product object values
       let user = Object.assign({}, this.customer, this.signUpForm.value);
-      this.signUpService.addUser(user).subscribe((result) => this.onSaveComplete(result),
+      this.signUpService.addUser(user).subscribe((data) => this.modalMessage = data ,
         (error: any) => this.errorMessage = <any>error);
        this.modalMessage = this.errorMessage
+debugger
   }
 
   public hideModal():void {
@@ -126,14 +129,7 @@ console.log(this.signUpForm);
   public onHidden():void {
     this.showModal = false;
   }
-  onSaveComplete(result : any): void {
-    // Reset the form to clear the flags
-   // this.router.navigate(['/home']);
-    this.startLoading();
-    //this.modalMessage = result.message;
-   // this.signUpForm.reset();
 
-  }
   onShowModal(){
     this.showModal = true;
   }

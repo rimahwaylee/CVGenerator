@@ -1,4 +1,4 @@
-@-moz-keyframes reveal-banner {
+/*@-moz-keyframes reveal-banner {
   0% {
     opacity: 0;
   }
@@ -99,3 +99,11 @@
 #banner .inner footer {
   margin: 2em 0 0 0;
 }
+*/
+
+@import "../../Styles/css/bootstrap.css";
+@import "../../Styles/css/popuo-box.css";
+@import "../../Styles/css/font-awesome.css";
+@import "../../Styles/css/zoomslider.css";
+@import "../../Styles/css/style.css";
+@import "../../Styles/css/lightbox.css";

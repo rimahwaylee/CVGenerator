@@ -19,22 +19,25 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles":[
-        "styles.css",
-        "../node_modules/font-awesome/css/font-awesome.css",
+        "./Styles/styles.css",
+        "Styles/css/font-awesome.css",
         "../node_modules/ng2-dropdown",
-        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "Styles/css/lightbox.css",
         "../node_modules/ng2-bootstrap",
         "../node_modules/ng2-modal",
         "../node_modules/ng2-loading-animate",
         "../node_modules/angular2-busy/build/style/busy.css",
-        "../node_modules/bootstrap/dist/css/bootstrap.css",
-        "../node_modules/bootstrap/dist/css/bootstrap-theme.css",
+        "Styles/css/bootstrap.css",
+        "Styles/css/popuo-box.css",
+        "Styles/css/style.css",
+        "Styles/css/zoomslider.css",
         "../node_modules/bootstrap/dist/js/bootstrap.js"
 
 
 
       ],
-      "scripts": [],
+      "scripts": [
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
