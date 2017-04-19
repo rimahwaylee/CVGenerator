@@ -6,3 +6,104 @@
 h1,p{
   color: white;
 }
+@charset "utf-8";
+/* CSS Document */
+
+
+.signup-form-container {
+
+  border-radius:3px;
+  background-color: transparent;
+  margin:4% auto;
+  max-width:500px;
+  border-top: 3px solid #00c0ef;
+  box-shadow:0 1px 5px rgba(0, 0, 0, 0.1);
+  opacity: 0.8;
+}
+
+.form-header{
+
+  color:#444;
+  display:block;
+  padding:20px;
+  position:relative;
+  border-bottom:1px solid #f4f4f4;
+}
+
+.form-header .form-title {
+  display:inline-block;
+  font-size:18px;
+  margin:0;
+  line-height:1
+}
+
+.form-body {
+  border-radius: 0 0 3px 3px;
+  padding:20px;
+  background-color: transparent;
+}
+
+.form-footer {
+  border-radius: 0 0 3px 3px;
+  border-top:1px solid #f4f4f4;
+  padding:20px;
+  background-color:#fff;
+  background-color: transparent;
+}
+
+.form-control{
+
+  font-size: 16px;
+  height: auto;
+  padding: 7px 9px;
+  background-color: white;
+
+}
+
+
+#verifModel{
+  margin-top: 10%;
+}
+
+
+.spinner {
+  width: 40px;
+  height: 40px;
+
+  position: relative;
+  margin: 100px auto;
+}
+
+.double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: crimson;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% {
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% {
+      transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+    }
+}

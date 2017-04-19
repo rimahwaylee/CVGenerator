@@ -7,7 +7,7 @@ import {Component} from "@angular/core";
 
 
 @Component({
-  selector :'app-viewtemplate1',
+  selector :   'app-viewtemplate1',
   templateUrl :'viewtemplate1.component.html',
   styleUrls : ['viewtemplate1.component.css']
 })
