@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'Tahoma_TrueType_0';
+  src: local('Tahoma_TrueType_0');
+  src: url('./5kVduwqS/Tahoma_TrueType_0.ttf') format('truetype');
+}
+
+.fmt-0{font-style:normal;font-weight:bold;font-family:Tahoma_TrueType_0,Tahoma,serif;color:#000000;font-size:11.04pt;}
+
+.fmt-1{font-style:normal;font-weight:bold;font-family:Tahoma_TrueType_0,Tahoma,serif;color:#001f5f;font-size:11.6371pt;}
+
+.fmt-2{font-style:normal;font-weight:bold;font-family:Tahoma_TrueType_0,Tahoma,serif;color:#ff0066;font-size:11.6371pt;}
+
+@font-face {
+  font-family: 'Tahoma_TrueType_1';
+  src: local('Tahoma_TrueType_1');
+  src: url('./5kVduwqS/Tahoma_TrueType_1.ttf') format('truetype');
+}
+
+.fmt-3{font-style:normal;font-weight:normal;font-family:Tahoma_TrueType_1,Tahoma,serif;color:#000000;font-size:11.04pt;}
+
+.fmt-4{font-style:normal;font-weight:bold;font-family:Tahoma_TrueType_0,Tahoma,serif;color:#3d3d3d;font-size:11.6371pt;}
+
+.fmt-5{font-style:normal;font-weight:bold;font-family:Tahoma_TrueType_0,Tahoma,serif;color:#000000;font-size:11.6371pt;}
+
+.fmt-6{font-style:normal;font-weight:normal;font-family:Tahoma_TrueType_1,Tahoma,serif;color:#000000;font-size:9.96pt;}
+
+.fmt-7{font-style:normal;font-weight:normal;font-family:Tahoma_TrueType_1,Tahoma,serif;color:#000000;font-size:24pt;}
+
+@font-face {
+  font-family: 'Tahoma_Type0_2';
+  src: local('Tahoma_Type0_2');
+  src: url('./5kVduwqS/Tahoma_Type0_2.otf') format('opentype');
+}
+
+.fmt-8{font-style:normal;font-weight:bold;font-family:Tahoma_Type0_2,Tahoma,serif;color:#000000;font-size:11.04pt;}
+
+@font-face {
+  font-family: 'Georgia_TrueType_3';
+  src: local('Georgia_TrueType_3');
+  src: url('./5kVduwqS/Georgia_TrueType_3.ttf') format('truetype');
+}
+
+.fmt-9{font-style:normal;font-weight:bold;font-family:Georgia_TrueType_3,Georgia,serif;color:#000000;font-size:26.04pt;}
+
+.fmt-10{font-style:normal;font-weight:bold;font-family:Georgia_TrueType_3,Georgia,serif;color:#000000;font-size:12pt;}
+
+.fmt-11{font-style:normal;font-weight:bold;font-family:Georgia_TrueType_3,Georgia,serif;color:#000000;font-size:3.96pt;}
+
+@font-face {
+  font-family: 'Comic_Sans_MS_TrueType_4';
+  src: local('Comic_Sans_MS_TrueType_4');
+  src: url('./5kVduwqS/Comic_Sans_MS_TrueType_4.ttf') format('truetype');
+}
+
+.fmt-12{font-style:normal;font-weight:bold;font-family:Comic_Sans_MS_TrueType_4,Comic Sans MS,serif;color:#000000;font-size:8.04pt;}
+
+.fmt-13{font-style:normal;font-weight:bold;font-family:Comic_Sans_MS_TrueType_4,Comic Sans MS,serif;color:#000000;font-size:14.04pt;}
+
+.fmt-14{font-style:normal;font-weight:bold;font-family:Comic_Sans_MS_TrueType_4,Comic Sans MS,serif;color:#000000;font-size:12pt;}
+
+.fmt-15{font-style:normal;font-weight:bold;font-family:Tahoma_TrueType_0,Tahoma,serif;color:#000000;font-size:14.04pt;}
+
+.fmt-16{font-style:normal;font-weight:normal;font-family:Tahoma_TrueType_1,Tahoma,serif;color:#000000;font-size:11.04pt;}
+
+.fmt-17{font-style:normal;font-weight:bold;font-family:Tahoma_TrueType_0,Tahoma,serif;color:#202020;font-size:14.04pt;}
+
+.fmt-18{font-style:normal;font-weight:bold;font-family:Tahoma_Type0_2,Tahoma,serif;color:#000000;font-size:14.04pt;}
+
+.fmt-19{font-style:normal;font-weight:bold;font-family:Tahoma_TrueType_0,Tahoma,serif;color:#000000;font-size:14.04pt;}
+
+.fmt-20{font-style:normal;font-weight:bold;font-family:Tahoma_TrueType_0,Tahoma,serif;color:#202020;font-size:14.04pt;}
+
+.fmt-21{font-style:normal;font-weight:normal;font-family:Times New Roman,Times New Roman,serif;color:#000000;font-size:12pt;}
+
+@font-face {
+  font-family: 'Cambria_TrueType_5';
+  src: local('Cambria_TrueType_5');
+  src: url('./5kVduwqS/Cambria_TrueType_5.ttf') format('truetype');
+}
+
+.fmt-22{font-style:normal;font-weight:bold;font-family:Tahoma_Type0_2,Tahoma,serif;color:#202020;font-size:14.04pt;}
+
+.fmt-23{font-style:normal;font-weight:bold;font-family:Tahoma_TrueType_0,Tahoma,serif;color:#202020;font-size:14.04pt;}
+
